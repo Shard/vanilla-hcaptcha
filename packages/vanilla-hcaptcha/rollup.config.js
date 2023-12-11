@@ -4,12 +4,18 @@ import typescript from '@rollup/plugin-typescript';
 
 export default {
     input: './src/index.ts',
-    output: {
+    output: [{
         file: './dist/index.min.js',
         format: 'iife',
         name: 'bundle',
         sourcemap: true
-    },
+    },{
+        file: './dist/index.esm.js',
+        format: 'esm',
+        name: 'bundle',
+        exports: 'named',
+        sourcemap: true
+    }],
     plugins: [
         typescript({ tsconfig: './tsconfig.json' }),
         terser(),

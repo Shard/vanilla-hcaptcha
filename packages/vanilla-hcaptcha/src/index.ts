@@ -1,3 +1,8 @@
 import {VanillaHCaptchaWebComponent} from "./hcaptcha";
+export {VanillaHCaptchaWebComponent};
 
-customElements.define('h-captcha', VanillaHCaptchaWebComponent);
+function registerHcaptcha() {
+    customElements.define('h-captcha', VanillaHCaptchaWebComponent);
+}
+
+export default registerHcaptcha;
