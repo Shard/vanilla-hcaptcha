@@ -1,5 +1,5 @@
 {
-  "name": "vanilla-hcaptcha",
+  "name": "vanilla-hcaptcha-root",
   "description": "Vanilla Web Component for hCaptcha. 0 dependencies. <1kb gzipped.",
   "version": "1.0.2",
   "workspaces": {
@@ -7,7 +7,9 @@
       "packages/*",
       "examples/*"
     ],
-    "nohoist": [ "**/vanilla-hcaptcha" ]
+    "nohoist": [
+      "**/vanilla-hcaptcha"
+    ]
   },
   "author": {
     "name": "Sergiu Danalachi <danalachi.sergiu@gmail.com>",

@@ -1,4 +1,6 @@
-# hCaptcha - Vanilla Web Component
+# @userback/hCaptcha - Vanilla Web Component
+NOTE: Forked from [vanilla-hcaptcha](https://github.com/DSergiu/vanilla-hcaptcha) in order to support importing without execution and the ability to rename the webcomponent to avoid conflicts.
+
 A Vanilla Web Component wrapper for [hCaptcha](https://docs.hcaptcha.com/).
 It allows for easy integration with hCaptcha in many modern web frameworks.
 

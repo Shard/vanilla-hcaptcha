@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-hcaptcha",
+  "name": "@userback/vanilla-hcaptcha",
   "description": "Vanilla Web Component for hCaptcha. 0 dependencies. <1kb gzipped.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.min.js",
   "types": "dist/hcaptcha.d.ts",
   "author": {
@@ -11,10 +11,10 @@
   "files": [
     "dist",
     "src",
-    "demo.html"
+    "demo.html",
+    "README.md"
   ],
-  "homepage": "https://github.com/DSergiu/vanilla-hcaptcha",
-  "private": false,
+  "homepage": "https://github.com/Shard/vanilla-hcaptcha",
   "license": "MIT",
   "scripts": {
     "dev": "rollup -c -w",
@@ -33,6 +33,9 @@
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.6.4"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "captcha",
